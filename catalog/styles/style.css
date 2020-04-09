@@ -1,0 +1,193 @@
+:root{
+   --bd-color:#d3d3d3; 
+}
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Sans-Serif;
+}
+
+img{
+    display:block;
+    height: 100%;
+}
+.clearfix{
+    clear:both;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.slider-title{
+    padding: 40px 0 60px 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.slider-wrap{
+    width: 973px;
+    height: 1px;
+    min-height: 455px;
+    margin: 0 auto;
+    border: 1px solid var(--bd-color);
+    position:relative;
+}
+
+.slider-item{
+    width: 25%;
+    height: 100%;
+    float: left;
+    position:relative;
+    padding: 0 18px 38px;
+    border-right: 1px solid var(--bd-color);
+}
+
+.slider-item:nth-last-child(2){
+    border:0;
+}
+
+.slider-item_sticker {
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -37px;
+    right: 6px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.sticker_new {
+    background-color: #86b022;
+}
+
+.sticker_hit {
+    background-color: #009de1;
+}
+
+.slider-item_category{
+    height: 95px;
+    border-bottom: 1px solid var(--bd-color);
+    text-align: center;
+    line-height: 95px;    
+}
+
+
+.slider-item_category a{
+    display:block;
+    height: 100%;
+    text-decoration: none;
+    color: #72767a;
+}
+
+.slider-item_category a:hover{
+    text-decoration: underline;
+}
+
+.slider-item_img{
+    height: 194px;
+    padding: 20px 0;
+}
+
+.slider-item_img img{
+    margin: 0 auto;
+}
+
+.slider-item_title{
+    min-height: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.slider-item_title a{
+    text-decoration: none;
+	color: #009be1;
+}
+
+.slider-item_price{
+    text-align:center;
+    font-weight: bold;
+    color: #000;
+}
+
+.slider-item_price span: last-child{
+    font-size: 13px;
+}
+
+.old_price{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.cur{
+	font-size: 12px;
+}
+.slidet-item_btn{
+    width: calc(100% - 36px); 
+    position: absolute;
+    bottom:38px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    margin:0 auto;
+    text-decoration: none;
+    text-align:center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.btn_announcement{
+    cursor: default;
+    color: #fff;
+    background-color: #cc3399;
+    word-wrap: break-word;
+}
+
+.btn_buy{
+    cursor: default;
+    color: #000;
+    background-color: #f0e524;
+    word-wrap: break-word;
+}
+
+.slider-btn{
+    height: 36px;
+    width:36px;
+    background-color: White;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--bd-color);
+	color: var(--bd-color);
+    border-radius: 50%;
+    position:  absolute;
+    top: 76px;
+}
+
+.slider-btn_left{
+    left: -18px;
+}
+
+.slider-btn_right{
+    right: -18px;
+}
+
+border: 2px для стікерів
