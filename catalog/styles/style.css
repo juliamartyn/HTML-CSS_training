@@ -162,7 +162,7 @@ img{
 }
 
 .btn_buy{
-    cursor: default;
+    cursor: pointer;
     color: #000;
     background-color: #f0e524;
     word-wrap: break-word;
