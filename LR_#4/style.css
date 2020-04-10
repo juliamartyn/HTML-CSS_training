@@ -1,23 +1,63 @@
-ul{
-	display:flex;
-	justify-content:center;
-	align-items:center;
+body {margin: 0;padding: 0;font-family: sans-serif;}
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-li{
-	display:block;
-	padding: 0 20px;
-	text-transform: uppercase;
+ul li {
+  list-style: none;
 }
-li{
-	font-size: 30px;
-	}
-	
-a{
-    text-decoration: none;
-    color: #464646;
+ul li a {
+  position: relative;
+  display: block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: #aaa;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+ul li a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background: #00cc99;
+  transition: 0.5s;
+}
+ul li a:hover {
+  color: #fff;
+}
+ul li a:hover::before {
+  animation: animate .5s linear forwards; 
 }
 
-a:hover {
-    font-weight: bold;
-    color: #00cc99;
+@keyframes animate {
+  0% {
+    top: calc(50% - 2px);
+    left: -100%;
+    height: 4px;
+    z-index: 1;
+  }
+  50% {
+    top: calc(50% - 2px);
+    left: 0;
+    height: 4px;
+    z-index: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
 }
