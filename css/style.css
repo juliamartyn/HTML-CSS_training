@@ -4,6 +4,9 @@
 	justify-content:center;
 	align-items:center;
 }
+.ul_p{
+	float:left;
+}
 .li_m, .li_p{
 	display:block;
 	padding: 0 20px;
@@ -164,6 +167,4 @@ li{
     filter: grayscale(100%);
 }
 
-.portfolio{
-   float: left;
-}
+
