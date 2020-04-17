@@ -1,6 +1,8 @@
 .menu{
 	position: sticky;
 	top: 0;
+	background-color: #fff;
+    	border-bottom: 3px solid #00cc99;
 }
 
 .ul_m, .ul_p{
