@@ -1,3 +1,6 @@
+.menu{
+	position: sticky;
+}
 
 .ul_m, .ul_p{
 	display:flex;
