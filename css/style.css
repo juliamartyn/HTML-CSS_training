@@ -1,5 +1,6 @@
 .menu{
 	position: sticky;
+	top: 0;
 }
 
 .ul_m, .ul_p{
