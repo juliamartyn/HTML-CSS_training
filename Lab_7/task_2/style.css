@@ -1,0 +1,113 @@
+.wrap{
+	margin: 0 auto;
+	background-color: #4a3831;
+	height: 530px;
+	width: 1055px;
+	position: relative;
+
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.discounts, .btn{
+	right: 60px;
+}
+.discounts{
+	background-color: #fff;
+	height: 390px;
+	width: 940px;
+	position: absolute;
+	top: 20px;
+}
+.with_p{
+	width:325px;
+	overflow: hidden;
+	float: left;
+}
+.info{
+	position: absolute;
+	left: -10px;
+	top: 155px;
+	background-color: #000;
+	height: 210px;
+	width: 335px;
+	text-align: center;
+}
+.name_p, .price_p{
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	width: 200px;
+	left: 65px;
+}
+.name_p{
+	font-size: 50px;
+	line-height: 40px;
+	top: 40px;
+}
+.price_p{
+	bottom: 30px;
+}
+span{
+	color: #f3c218;
+	font-weight: bold;
+	font-size: 14px;
+}
+.catch_moment{
+	float: right;
+	height: 390px;
+	width: 610px;
+}
+.title{
+	font-size: 20px;
+	margin-top: 40px;
+	text-align: center;
+}
+.items{
+	margin: 25px 10px 15px 10px;
+	float: left;
+}
+.item{
+	margin: 0 25px;
+	float: left;
+	font-size: 16px;
+	padding: 20px;
+	width:200px;
+	text-align:center;
+	border-bottom: 1px solid #d5d5d5;
+}
+.item::after{
+	display: block;
+	position: absolute;
+	content: ' ';
+	height: 10px;
+	width: 10px;
+	margin: 15px 95px;
+	background-color: #d5d5d5;
+	transform: rotate(45deg);
+}
+.name{
+	font-size: 20px;
+}
+.price{
+	color: #9d9d9d;
+	font-size: 16px;
+	font-weight: 600;
+}
+.btn{
+	position: absolute;
+	bottom: 50px;
+	background-color: #000;
+	height: 50px;
+	width: 175px;
+	font-weight: bold;
+	font-size: 16px;
+}
+a{
+	position: absolute;
+	top: 15px;
+	right:40px;
+	text-decoration: none;
+	color: #fff;
+}
