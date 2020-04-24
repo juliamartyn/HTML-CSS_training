@@ -171,6 +171,10 @@ li{
     filter: grayscale(100%);
 }
 
+.social{
+	color:#00cc99;
+}
+
 .soc{
 	height: 48px;
 	width: 48px;
