@@ -179,7 +179,7 @@ li{
 .soc{
 	height: 48px;
 	width: 48px;
-	background:url(https://juliamartyn.github.io/img/css_sprites.png)
+	background:url(https://juliamartyn.github.io/img/css_sprites.png)no-repeat;
 }
 
 .fb{
