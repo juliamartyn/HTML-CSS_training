@@ -175,7 +175,6 @@ li{
 	color:#00cc99;
 	height: 100px;
 	display: flex;
-	filter: grayscale(100%);
 	
 }
 
@@ -183,8 +182,11 @@ li{
 	height: 48px;
 	width: 48px;
 	background:url(https://juliamartyn.github.io/img/css_sprites.png)no-repeat;
+	filter: grayscale(100%);
 }
-
+.cos a:hover{
+	filter: none;
+}
 
 .fb{
 	background-position: -9px -9px;
