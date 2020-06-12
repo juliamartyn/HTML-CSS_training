@@ -1,0 +1,51 @@
+body{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 300px auto;
+	width: 40%;
+}
+.social{
+	background: url('css_sprites.png');
+	width: 110px; height: 111px;
+}
+.bg-fb_b:hover{
+    background-position: -10px -534px;
+}
+.bg-ins_b:hover {
+    background-position: -10px -666px;
+}
+.bg-tw_b:hover {
+    background-position: -10px -798px;
+}
+.bg-w_b:hover {
+    background-position: -10px -930px;
+}
+.bg-fb_b {
+    background-position: -10px -10px;
+}
+.bg-ins_b {
+    background-position: -10px -141px;
+}
+.bg-tw_b {
+    background-position: -10px -272px;
+}
+.bg-w_b {
+    background-position: -10px -403px;
+}
